@@ -3,20 +3,47 @@
 const products = [{
   id: 1,
   name: 'Tongkat AM Putih',
+  img: '/assets/am-4.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
-  id: 1,
+  id: 2,
   name: 'Tongkat AM Putih',
+  img: '/assets/am-2.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
-  id: 1,
+  id: 3,
   name: 'Tongkat AM Putih',
+  img: '/assets/am-3.jpeg',
+  price: '65000,00',
+  desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
+  best: true
+},
+{
+  id: 4,
+  name: 'Tongkat AM Putih',
+  img: '/assets/am-4.jpeg',
+  price: '65000,00',
+  desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
+  best: true
+},
+{
+  id: 5,
+  name: 'Tongkat AM Putih',
+  img: '/assets/am-5.jpeg',
+  price: '65000,00',
+  desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
+  best: true
+},
+{
+  id: 6,
+  name: 'Tongkat AM Putih',
+  img: '/assets/am-7.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
@@ -29,7 +56,7 @@ const products = [{
         <div class="grid grid-cols-1 md:grid-cols-3  gap-5 mt-5">
             <div v-for="item in products"
                 :key="products.id" class="card w-full md:-1/3 bg-base-300 shadow-xl">
-              <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+              <figure><img :src="item.img" alt="Shoes" /></figure>
               <div class="card-body">
                 <h2 class="card-title">{{ item.name }} <span></span></h2>
                 <span class="text-xl  font-light"> {{ item.desc }}</span>

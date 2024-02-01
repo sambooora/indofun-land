@@ -3,20 +3,23 @@
 const products = [{
   id: 1,
   name: 'Tongkat AM Putih',
+  img: '/assets/am-4.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
-  id: 1,
+  id: 2,
   name: 'Tongkat AM Putih',
+  img: '/assets/am-2.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
-  id: 1,
+  id: 3,
   name: 'Tongkat AM Putih',
+  img: '/assets/am-3.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
@@ -61,7 +64,7 @@ const testimoni = [{
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 mt-5">
         <div v-for="item in products"
                 :key="products.id" class="card w-full md:-1/3 bg-base-300 shadow-xl">
-              <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+              <figure><img :src="item.img" alt="" /></figure>
               <div class="card-body">
                 <h2 class="card-title">{{ item.name }} <span></span></h2>
               </div>
@@ -76,10 +79,16 @@ const testimoni = [{
     <section class="container mx-auto px-8 md:px-0 h-full flex flex-col items-center gap-3 mt-10">
       <span class="text-2xl">Cari tau tentang, Tongkat AM Madura</span>
       <div class="w-full flex flex-col md:flex-row justify-between items-center">
-        <div class="w-full md:w-1/2 bg-blue-500 h-96 rounded">
+        <div class="w-full md:w-1/2  h-[600px] rounded"
+        style="
+        background-image: url(/assets/design-2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      ">
 
         </div>
-        <div class="w-full md:w-1/2 bg-base-300 h-full md:h-96 rounded p-10 flex flex-col justify-start gap-3">
+        <div class="w-full md:w-1/2 bg-base-300 h-full md:h-[600px] rounded p-10 flex flex-col justify-start gap-3">
           <div class="flex flex-col justify-start p-3 md:p-10 gap-3"> 
             <span class="text-3xl font-semibold">Manfaat Tongkat AM</span>
             <span class="text-xl tracking-wide prose font-semibold">
@@ -129,7 +138,7 @@ const testimoni = [{
     <section class="container mx-auto px-8 md:px-0 h-full flex flex-col gap-3 items-center mt-10">
       <span class="text-2xl">Cara Pemakaian, Tongkat AM Madura</span>
       <div class="w-full flex flex-col md:flex-row justify-between items-center">
-        <div class="w-full md:w-1/2 bg-base-300 h-full md:h-96 rounded flex flex-col justify-center items-center p-10 gap-3 text-wrap">
+        <div class="w-full md:w-1/2 bg-base-300 h-full md:h-[600px] rounded flex flex-col justify-center items-center p-10 gap-3 text-wrap">
           <div class="flex flex-col justify-start p-3 md:p-10 gap-3">
             <span class="text-3xl tracking-wide font-semibold mb-3">Caranya Cukup mudah</span>
             <ul class=" list-decimal text-xl tracking-wide p-0 md:p-6">
@@ -143,8 +152,12 @@ const testimoni = [{
             </span>
           </div>
         </div>
-        <div class="w-full md:w-1/2 bg-blue-500 h-96 rounded">
-
+        <div class="w-full md:w-1/2 h-[600px] rounded" style="
+        background-image: url(/assets/Design.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      ">
         </div>
       </div>
     </section>
