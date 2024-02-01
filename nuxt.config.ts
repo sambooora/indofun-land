@@ -3,4 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   css: ['~/assets/styles/plugin.css'],
+  runtimeConfig: {
+    public: {
+      app: {
+        name: 'Indofun',
+        description: 'Landing Page',
+      },
+    }
+  },
 })

@@ -1,8 +1,8 @@
 
 <template>
-  <div>
+  <div id="main-container">
     <Header />
-    <div class="container mx-auto px-8 md:px-0">
+    <div >
       <slot />
       <Footer />
     </div>

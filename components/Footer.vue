@@ -6,7 +6,7 @@
     <div class="flex flex-col lg:flex-row justify-between space-y-5 lg:space-y-0 lg:space-x-5 text-lg">
       <div class="lg:w-1/2 flex flex-col">
         <p>
-          I design and develop Experiences thats make people's live simple. For more information about me, you can contact me at.
+          Untuk pembelian partai besar bisa langsung hubungi admin kami ya
         </p>
         <div class="flex flex-row w-56 space-x-4 p-3">
           <a href="https://twitter.com/sambooora" target="_blank">
@@ -20,22 +20,19 @@
           </a>
         </div>
       </div>
-      <div class="lg:flex-1 w-full flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-5 lg:justify-between">
-        <div class="flex flex-col space-y-2">
-          <NuxtLink to="/">Overview</NuxtLink>
-          <NuxtLink to="/products">Project</NuxtLink>
-        </div>
-        <div class="flex flex-col space-y-2">
-          <a href="https://twitter.com/sambooora" target="_blank">Twitter</a>
-          <a href="https://github.com/sambooora" target="_blank">GitHub</a>
-          <a href="https://instagram.com/sambooora" target="_blank">Instagram</a>
-          <a href="https://dribbble.com/richiesambora9029" target="_blank">Dribble</a>
-        </div>
-        <div class="flex flex-col space-y-2">
-          <NuxtLink to="/">Galleries</NuxtLink>
-          <NuxtLink to="/">Blogs</NuxtLink>
-          <NuxtLink to="/">Tutorials</NuxtLink>
-        </div>
+      <div class="md:w-1/2 w-full flex flex-row just">
+        <div class="w-full flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-5 lg:justify-between">
+          <div class="flex flex-col space-y-2">
+            <NuxtLink to="/products">Product</NuxtLink>
+            <NuxtLink to="/testimoni">Testimoni</NuxtLink>
+  
+          </div>
+          <div class="flex flex-col space-y-2">
+            <a href="https://twitter.com/sambooora" target="_blank">Instagram</a>
+            <a href="https://github.com/sambooora" target="_blank">Youtube</a>
+            <a href="https://instagram.com/sambooora" target="_blank">WhatsApp</a>
+          </div>
+      </div>
       </div>
     </div>
     <div class="w-full flex justify-center items-center text-sm">

@@ -22,12 +22,12 @@ onBeforeUnmount(() => {
 
 <template>
   <header
-    class="sticky top-0 z-10 h-16 sm:h-20 lg:h-24 transition-colors duration-200 flex items-center bg-base-300"
+    class="sticky top-0 z-10 h-16 sm:h-20 lg:h-24 transition-colors duration-200 flex items-center" :class="!isTransparent ? 'bg-gray-800' : ''"
   >
-    <div class="container mx-auto px-4 md:px-8">
+    <div class="container mx-auto px-4 md:px-0">
       <div class="navbar px-0">
         <div class="navbar-start">
-          <NuxtLink to="/" class="normal-case text-xl md:text-3xl font-semibold">Perawatan Ayu Indofun</NuxtLink>
+          <NuxtLink to="/" class="normal-case text-3xl font-semibold">Indofun</NuxtLink>
         </div>
         <div class="navbar-end space-x-6">
           <div class="flex md:hidden">
