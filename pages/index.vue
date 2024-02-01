@@ -3,7 +3,7 @@
 const products = [{
   id: 1,
   name: 'Tongkat AM Putih',
-  img: '/assets/am-4.jpeg',
+  img: '/assets/am-2.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
@@ -11,7 +11,7 @@ const products = [{
 {
   id: 2,
   name: 'Tongkat AM Putih',
-  img: '/assets/am-2.jpeg',
+  img: '/assets/am-4.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
@@ -19,7 +19,7 @@ const products = [{
 {
   id: 3,
   name: 'Tongkat AM Putih',
-  img: '/assets/am-3.jpeg',
+  img: '/assets/am-7.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
@@ -38,6 +38,12 @@ const testimoni = [{
   desc: 'Menyembuhkan Keputihan istri saya selama ini. membuat hubungan suami istri semakin harmonis',
   source: 'Facebook'
 },
+{
+  id: 3,
+  name: 'Gatot - Nama Samaran',
+  desc: 'Barangnya Original dan ampuh, jos deh pokoknya',
+  source: 'Facebook'
+},
 ]
 </script>
 <template>
@@ -52,9 +58,10 @@ const testimoni = [{
       "
     >
       <div class="container mx-auto px-8 md:px-0 pt-24 flex-1 flex flex-col items-start justify-center">
-        <div class="text-3xl md:text-4xl xl:text-5xl max-w-lg lg:max-w-2xl">
+        <div class="text-3xl md:text-4xl xl:text-5xl max-w-lg lg:max-w-2xl flex flex-col justify-start">
           <p class="leading-normal text-gray-600">Perawatan Ayu Indofun</p>
           <p class="text-xl tracking-wide text-gray-600"> Menyediakan segala kebutuhan kecantikan dan kebutuhan keharmonisan keluarga anda.</p>
+          <span class="text-xl font-semibold text-gray-600 py-5">HERBAL | ORIGINAL | AMPUH</span>
         </div>
         <button class="btn btn-outline text-gray-600 border-gray-600 text-2xl mt-12 px-8">Pesan Sekarang</button>
       </div>
@@ -106,7 +113,6 @@ const testimoni = [{
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
         <figure v-for="val in testimoni"
                 :key="testimoni.id" class=" w-full flex flex-row justify-start items-center bg-slate-100 rounded-xl p-8 dark:bg-base-300">
-        <img class="w-24 h-24 md:w-48 md:h-46 rounded-full mx-auto" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="" width="384" height="512">
         <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
           <blockquote>
             <p class="text-xl  font-medium">
@@ -131,9 +137,9 @@ const testimoni = [{
         </div>
         </figure>
       </div>
-      <div class="w-full flex justify-center items-center">
+      <!-- <div class="w-full flex justify-center items-center">
         <button class="btn btn-outline text-white text-2xl border-white mt-12 px-8">Lebih Banyak Testimoni</button>
-      </div>
+      </div> -->
     </section>
     <section class="container mx-auto px-8 md:px-0 h-full flex flex-col gap-3 items-center mt-10">
       <span class="text-2xl">Cara Pemakaian, Tongkat AM Madura</span>
