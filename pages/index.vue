@@ -130,8 +130,8 @@ const testimoni = [{
     </section>
     <section class="container mx-auto px-8 md:px-0 h-full flex flex-col items-center gap-3 mt-10">
       <span class="text-2xl">Cari tau tentang, Tongkat AM Madura</span>
-      <div class="w-full flex flex-col md:flex-row justify-between items-center">
-        <div class="w-full md:w-1/2  h-[680px] rounded"
+      <div class="w-full flex flex-col md:flex-row justify-between items-center shadow-md">
+        <div class="w-full md:w-1/2 h-[680px] rounded"
         style="
         background-image: url(/assets/design-2.jpeg);
         background-position: center;
