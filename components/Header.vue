@@ -22,7 +22,7 @@ onBeforeUnmount(() => {
 
 <template>
   <header
-    class="sticky top-0 z-10 h-16 sm:h-20 lg:h-24 transition-colors duration-200 flex items-center" :class="!isTransparent ? 'bg-gray-800' : ''"
+    class="sticky top-0 z-10 h-16 sm:h-20 lg:h-24 transition-colors duration-200 flex items-center text-gray-100" :class="!isTransparent ? 'bg-gray-800' : ''"
   >
     <div class="container mx-auto px-4 md:px-0">
       <div class="navbar px-0">
@@ -46,14 +46,14 @@ onBeforeUnmount(() => {
               <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 text-2xl">
                 <li><NuxtLink to="/">Home</NuxtLink></li>
                 <li><NuxtLink to="/product">Product</NuxtLink></li>
-                <li><a href="mailto:richiesambora9029@gmail.com">Contact</a></li>
+                <li><a href="mailto:sukses5881@gmail.com">Contact</a></li>
               </ul>
             </div>
           </div>
           <div class="hidden md:flex flex-row items-center space-x-6 text-xl leading-3">
             <NuxtLink to="/">Home</NuxtLink>
             <NuxtLink to="/product">Product</NuxtLink>
-            <a href="mailto:richiesambora9029@gmail.com">Contact</a>
+            <a href="mailto:sukses5881@gmail.com">Contact</a>
           </div>
         </div>
       </div>
