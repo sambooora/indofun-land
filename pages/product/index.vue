@@ -2,48 +2,56 @@
 
 const products = [{
   id: 1,
-  name: 'Tongkat AM Putih',
+  name: 'Tongkat Ajimat Madura Extra Big',
   img: '/assets/am-4.jpeg',
-  price: '65000,00',
+  price: '110000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
   id: 2,
-  name: 'Tongkat AM Putih',
+  name: 'Tongkat Ajimat Madura Putih SM',
   img: '/assets/am-2.jpeg',
-  price: '65000,00',
+  price: '45000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
   id: 3,
-  name: 'Tongkat AM Putih',
+  name: 'Tongkat Ajimat Madura Putih middle',
   img: '/assets/am-3.jpeg',
-  price: '65000,00',
+  price: '55000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
   id: 4,
-  name: 'Tongkat AM Putih',
+  name: 'Tongkat Ajimat Madura Putih',
   img: '/assets/am-4.jpeg',
-  price: '65000,00',
+  price: '55000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
   id: 5,
-  name: 'Tongkat AM Putih',
+  name: 'Tongkat Ajimat Madura Coklat',
   img: '/assets/am-5.jpeg',
+  price: '60000,00',
+  desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
+  best: true
+},
+{
+  id: 6,
+  name: 'Tongkat Ajimat Madura Hitam',
+  img: '/assets/am-7.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
   id: 6,
-  name: 'Tongkat AM Putih',
-  img: '/assets/am-7.jpeg',
+  name: 'Tongkat Ajimat Madura Pink',
+  img: '/assets/am-9.jpeg',
   price: '65000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
@@ -59,7 +67,7 @@ const products = [{
               <figure><img :src="item.img" alt="Shoes" /></figure>
               <div class="card-body">
                 <h2 class="card-title">{{ item.name }} <span></span></h2>
-                <span class="text-xl  font-light"> {{ item.desc }}</span>
+                <!-- <span class="text-xl  font-light"> {{ item.desc }}</span> -->
                 <span class="text-2xl text-end font-semibold mt-10"> {{ item.price }}</span>
               </div>
             </div>

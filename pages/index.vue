@@ -2,25 +2,25 @@
 
 const products = [{
   id: 1,
-  name: 'Tongkat AM Putih',
+  name: 'Tongkat Ajimat Madura Putih SM',
   img: '/assets/am-2.jpeg',
-  price: '65000,00',
+  price: '45000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
   id: 2,
-  name: 'Tongkat AM Putih',
+  name: 'Tongkat Ajimat Madura BG',
   img: '/assets/am-4.jpeg',
-  price: '65000,00',
+  price: '60000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
 {
   id: 3,
-  name: 'Tongkat AM Putih',
+  name: 'Tongkat Ajimat Madura Hitam BG',
   img: '/assets/am-7.jpeg',
-  price: '65000,00',
+  price: '45000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: true
 },
@@ -74,6 +74,7 @@ const testimoni = [{
               <figure><img :src="item.img" alt="" /></figure>
               <div class="card-body">
                 <h2 class="card-title">{{ item.name }} <span></span></h2>
+                <span class="text-2xl text-end font-semibold mt-10"> {{ item.price }}</span>
               </div>
             </div>
       </div>
@@ -97,7 +98,7 @@ const testimoni = [{
         </div>
         <div class="w-full md:w-1/2 bg-base-300 h-full md:h-[600px] rounded p-10 flex flex-col justify-start gap-3">
           <div class="flex flex-col justify-start p-3 md:p-10 gap-3"> 
-            <span class="text-3xl font-semibold">Manfaat Tongkat AM</span>
+            <span class="text-3xl font-semibold">Manfaat Tongkat Ajimat Madura</span>
             <span class="text-xl tracking-wide prose font-semibold">
               Jaminan Original dan Uang Kembali, Rahasia di Cintai Suami
             </span>
@@ -142,7 +143,7 @@ const testimoni = [{
       </div> -->
     </section>
     <section class="container mx-auto px-8 md:px-0 h-full flex flex-col gap-3 items-center mt-10">
-      <span class="text-2xl">Cara Pemakaian, Tongkat AM Madura</span>
+      <span class="text-2xl">Cara Pemakaian, Tongkat Ajimat Madura</span>
       <div class="w-full flex flex-col md:flex-row justify-between items-center">
         <div class="w-full md:w-1/2 bg-base-300 h-full md:h-[600px] rounded flex flex-col justify-center items-center p-10 gap-3 text-wrap">
           <div class="flex flex-col justify-start p-3 md:p-10 gap-3">
