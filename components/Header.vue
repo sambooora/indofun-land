@@ -43,14 +43,14 @@ onBeforeUnmount(() => {
                 >
                   <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" /></svg>
                 </label>
-              <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 text-ancient">
+              <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 text-2xl">
                 <li><NuxtLink to="/">Home</NuxtLink></li>
                 <li><NuxtLink to="/product">Product</NuxtLink></li>
                 <li><a href="mailto:richiesambora9029@gmail.com">Contact</a></li>
               </ul>
             </div>
           </div>
-          <div class="hidden md:flex flex-row items-center space-x-6">
+          <div class="hidden md:flex flex-row items-center space-x-6 text-xl leading-3">
             <NuxtLink to="/">Home</NuxtLink>
             <NuxtLink to="/product">Product</NuxtLink>
             <a href="mailto:richiesambora9029@gmail.com">Contact</a>
