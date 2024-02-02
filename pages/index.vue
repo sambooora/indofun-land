@@ -114,7 +114,7 @@ const testimoni = [{
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 mt-5">
         <div v-for="item in products"
                 :key="products.id" class="card w-full bg-slate-100 shadow-md">
-              <figure><img :src="item.img" alt=""  class=" w-full h-[660px]"/></figure>
+              <figure><img :src="item.img" alt=""  class=" w-full h-full md:h-[660px]"/></figure>
               <div class="card-body">
                 <h2 class="card-title flex flex-col md:flex-row justify-between items-start md:items-center"> <span> {{ item.name }} </span> <div v-if="item.best === true" class="badge badge-secondary">Best Seller</div> <span></span></h2>
                 <span v-if="item.id === 6">{{ item.desc }}</span>
