@@ -5,7 +5,7 @@ const products = [
   id: 6,
   name: 'Tongkat Ajimat Madura Pink',
   img: '/assets/am-9.jpeg',
-  price: '65000,00',
+  price: '110000,00',
   desc: 'Best Seller Kami, Lebih halus dan beraroma Mawar',
   best: true
 },{
@@ -20,7 +20,7 @@ const products = [
   id: 2,
   name: 'Tongkat Ajimat Madura Putih Kecil',
   img: '/assets/am-2.jpeg',
-  price: '25000,00',
+  price: '45000,00',
   desc: 'kemasan ekonomis',
   best: false
 },
@@ -52,7 +52,7 @@ const products = [
   id: 7,
   name: 'Tongkat Ajimat Madura Hitam',
   img: '/assets/am-7.jpeg',
-  price: '65000,00',
+  price: '45000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
   best: false
 },
