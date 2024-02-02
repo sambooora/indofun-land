@@ -1,6 +1,6 @@
 
 <template>
-  <div id="main-container">
+  <div data-theme="emerald" id="main-container">
     <Header />
     <div >
       <slot />

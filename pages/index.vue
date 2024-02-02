@@ -1,28 +1,60 @@
 <script lang="ts" setup>
 
-const products = [{
+const products = [
+{
+  id: 6,
+  name: 'Tongkat Ajimat Madura Pink',
+  img: '/assets/am-9.jpeg',
+  price: '65000,00',
+  desc: 'Best Seller Kami, Lebih halus dan beraroma Mawar',
+  best: true
+},{
   id: 1,
+  name: 'Tongkat Ajimat Madura Extra Big',
+  img: '/assets/am-4.jpeg',
+  price: '110000,00',
+  desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
+  best: false
+},
+{
+  id: 2,
   name: 'Tongkat Ajimat Madura Putih SM',
   img: '/assets/am-2.jpeg',
   price: '45000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
-  best: true
-},
-{
-  id: 2,
-  name: 'Tongkat Ajimat Madura BG',
-  img: '/assets/am-4.jpeg',
-  price: '60000,00',
-  desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
-  best: true
+  best: false
 },
 {
   id: 3,
-  name: 'Tongkat Ajimat Madura Hitam BG',
-  img: '/assets/am-7.jpeg',
-  price: '45000,00',
+  name: 'Tongkat Ajimat Madura Putih middle',
+  img: '/assets/am-3.jpeg',
+  price: '55000,00',
   desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
-  best: true
+  best: false
+},
+{
+  id: 4,
+  name: 'Tongkat Ajimat Madura Putih',
+  img: '/assets/am-4.jpeg',
+  price: '55000,00',
+  desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
+  best: false
+},
+{
+  id: 5,
+  name: 'Tongkat Ajimat Madura Coklat',
+  img: '/assets/am-5.jpeg',
+  price: '60000,00',
+  desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
+  best: false
+},
+{
+  id: 7,
+  name: 'Tongkat Ajimat Madura Hitam',
+  img: '/assets/am-7.jpeg',
+  price: '65000,00',
+  desc: 'Menyembuhkan Keputihan, merapatkan Miss V dan mengurangi lendir yang berlebihan. membuat hubungan suami istri semakin harmonis',
+  best: false
 },
 ]
 
@@ -61,7 +93,7 @@ const testimoni = [{
         <div class="text-3xl md:text-4xl xl:text-5xl max-w-lg lg:max-w-2xl flex flex-col justify-start">
           <p class="leading-normal text-gray-600">Perawatan Ayu Indofun</p>
           <p class="text-xl tracking-wide text-gray-600"> Menyediakan segala kebutuhan kecantikan dan kebutuhan keharmonisan keluarga anda.</p>
-          <span class="text-xl font-semibold text-gray-600 py-5">HERBAL | ORIGINAL | AMPUH</span>
+          <span class="text-xl font-semibold text-gray-600 py-5">HERBAL | ORIGINAL | Bergaransi</span>
         </div>
         <button class="btn btn-outline text-gray-600 border-gray-600 text-2xl mt-12 px-8">Pesan Sekarang</button>
       </div>
@@ -73,7 +105,8 @@ const testimoni = [{
                 :key="products.id" class="card w-full md:-1/3 bg-base-300 shadow-xl">
               <figure><img :src="item.img" alt="" /></figure>
               <div class="card-body">
-                <h2 class="card-title">{{ item.name }} <span></span></h2>
+                <h2 class="card-title">{{ item.name }} <div v-if="item.best === true" class="badge badge-secondary">Best Seller</div> <span></span></h2>
+                <span v-if="item.id === 6">{{ item.desc }}</span>
                 <span class="text-2xl text-end font-semibold mt-10"> {{ item.price }}</span>
               </div>
             </div>
@@ -138,9 +171,6 @@ const testimoni = [{
         </div>
         </figure>
       </div>
-      <!-- <div class="w-full flex justify-center items-center">
-        <button class="btn btn-outline text-white text-2xl border-white mt-12 px-8">Lebih Banyak Testimoni</button>
-      </div> -->
     </section>
     <section class="container mx-auto px-8 md:px-0 h-full flex flex-col gap-3 items-center mt-10">
       <span class="text-2xl">Cara Pemakaian, Tongkat Ajimat Madura</span>
@@ -155,7 +185,7 @@ const testimoni = [{
               <li>Bilas dengan bersih</li>
             </ul>
             <span class="text-xl tracking-wide">
-              Pehatian : Ibu Hamil, Menyusui dan yg sedang Menstulasi dilarang menggunakan produk ini
+              Pehatian : Ibu Hamil, Menyusui dan yg sedang menstruasi dilarang menggunakan produk ini
             </span>
           </div>
         </div>
