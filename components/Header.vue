@@ -43,7 +43,7 @@ onBeforeUnmount(() => {
                 >
                   <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" /></svg>
                 </label>
-              <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 text-2xl">
+              <ul tabindex="0" class="dropdown-content menu p-2 shadow rounded-box w-52 text-2xl">
                 <li><NuxtLink to="/">Home</NuxtLink></li>
                 <li><NuxtLink to="/product">Product</NuxtLink></li>
                 <li><a href="mailto:sukses5881@gmail.com">Contact</a></li>
