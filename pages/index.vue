@@ -133,7 +133,7 @@ const testimoni = [{
       <div class="w-full flex flex-col md:flex-row justify-between items-center shadow-md">
         <div class="w-full md:w-1/2 h-[680px] rounded"
         style="
-        background-image: url(/assets/design-2.jpeg);
+        background-image: url(/assets/design-2.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
