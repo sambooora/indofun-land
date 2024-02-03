@@ -131,7 +131,7 @@ const testimoni = [{
     <section class="container mx-auto px-8 md:px-0 h-full flex flex-col items-center gap-3 mt-10">
       <span class="text-2xl">Cari tau tentang, Tongkat AM Madura</span>
       <div class="w-full flex flex-col md:flex-row justify-between items-center shadow-md">
-        <div class="w-full md:w-1/2 h-[500px] md:h-[680px] rounded"
+        <div class="w-full md:w-1/2 h-[400px] md:h-[680px] rounded"
         style="
         background-image: url(/assets/design-2.png);
         background-position: center;
@@ -186,7 +186,7 @@ const testimoni = [{
     <section class="container mx-auto px-8 md:px-0 h-full flex flex-col gap-3 items-center mt-10">
       <span class="text-2xl">Cara Pemakaian, Tongkat Ajimat Madura</span>
       <div class="w-full flex flex-col md:flex-row justify-between items-center">
-        <div class="w-full md:w-1/2 bg-slate-100 shadow-md h-full md:h-[600px] rounded flex flex-col justify-center items-center p-10 gap-3 text-wrap">
+        <div class="w-full md:w-1/2 bg-slate-100 shadow-md h-full md:h-[680px] rounded flex flex-col justify-center items-center p-10 gap-3 text-wrap">
           <div class="flex flex-col justify-start p-3 md:p-10 gap-3">
             <span class="text-3xl tracking-wide font-semibold mb-3">Caranya Cukup mudah</span>
             <ul class=" list-decimal text-xl tracking-wide p-0 md:p-6">
@@ -200,7 +200,7 @@ const testimoni = [{
             </span>
           </div>
         </div>
-        <div class="w-full md:w-1/2 h-[600px] rounded" style="
+        <div class="w-full md:w-1/2 h-[400px] md:h-[680px] rounded" style="
         background-image: url(/assets/Design.png);
         background-position: center;
         background-repeat: no-repeat;
